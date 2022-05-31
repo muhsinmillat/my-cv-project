@@ -1,0 +1,2 @@
+body container color= #e4f9f5
+content color= teal

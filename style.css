@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both; 
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+/* visited link */
+a:visited {
+    color: #c5cdc5;
+  }
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+
+
+
+
+/* cv content css start here */
+.container{
+    background-color: #e4f9f5;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 25px;
+}
+/* .header-area{
+    padding: 5px 10px;
+} */
+/* header css..................... */
+header img{
+    width: 100px;
+    height: 105px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    float: left;
+}
+header .pic-left-content{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+header .contact-info{
+    float: right;
+    margin: 15px;
+}  
+header .contact-info li{
+    list-style: none;
+
+}   
+header .contact-info li a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 0;
+
+}  
+header .contact-info li a:hover{
+   color: tomato;
+   text-decoration: underline;
+}
+hr{
+    border: 3px solid black;
+    border-bottom: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Css personal information */
+.personal-info{}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+.right-div p{
+    font-weight: bold;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: 0;
+    margin: 20px 0;
+}
+/* start education section css */
+.educationarea p{
+    font-weight: bold;
+}
+.educationarea .edu1{
+    float: left;
+    width: 33%;
+
+
+}
+.educationarea .edu2{
+    float: left;
+    width: 33%;
+}
+.educationarea .edu3{
+    float: left;
+    width: 33%;
+}
+
+/* start footer css........... */
+footer{
+    background-color: black;
+    padding: 10px 0;
+}
+.social-link p{
+   font-weight: bold;
+   color: #fff;
+}
+.social-link{
+    text-align: center;
+}
+.social-link ul li{
+    display: inline-block;
+
+}
+.social-link ul {
+    list-style: none;
+}
+.social-link ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+
+   
+}
+
+
+
+
